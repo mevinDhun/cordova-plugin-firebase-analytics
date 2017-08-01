@@ -7,7 +7,7 @@
 - (void)pluginInitialize {
     NSLog(@"Starting Firebase Analytics plugin");
 
-    [FIROptions defaultOptions].deepLinkURLScheme = [FIROptions defaultOptions].bundleID;
+    //[FIROptions defaultOptions].deepLinkURLScheme = [FIROptions defaultOptions].bundleID;
 
     if(![FIRApp defaultApp]) {
         [FIRApp configure];
