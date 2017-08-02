@@ -33,6 +33,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <pods-config ios-min-version="7.0" uses-frameworks="true"/>
 
         <pod id="Firebase/Core"/>
+        <pod id="Firebase/Messaging"/>
     </platform>
 
     <platform name="android">
