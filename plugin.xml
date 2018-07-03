@@ -30,7 +30,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <source-file src="src/ios/FirebaseAnalyticsPlugin.m" />
 
         <dependency id="cordova-plugin-cocoapod-support"/>
-        <pods-config ios-min-version="7.0" uses-frameworks="true"/>
+        <pods-config ios-min-version="7.0" use-frameworks="true"/>
 
         <pod id="Firebase/Core"/>
         <pod id="Firebase/Messaging"/>
